@@ -17,8 +17,10 @@ document.write("<p>B=", B, "</p>");
 fname = prompt("What's your name?");
 document.write(fname);
 
+let multiplyby = prompt("Please enter a number");
+
 for (counter = 1 ; counter <= 10 ; counter = counter + 1)
 {
-    document.write("<p>", counter, "  ", counter*6, "</p>");
+    document.write("<p>", counter, " * ", multiplyby, " = ", counter*multiplyby, "</p>");
 
 }
