@@ -1,4 +1,4 @@
-window.alert("hello word");
+/*window.alert("hello word");
 document.write("<center><h1>Hello world</h1></center>");
 let x = 3;
 let y = 6;
@@ -24,3 +24,8 @@ for (counter = 1 ; counter <= 10 ; counter = counter + 1)
     document.write("<p>", counter, " * ", multiplyby, " = ", counter * multiplyby, "</p>");
 
 }
+*/
+
+let number1 = prompt("Please enter first number");
+let number2 = prompt("Please enter second number");
+document.write(number1*number2);
